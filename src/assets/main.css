@@ -1,0 +1,27 @@
+
+#right-side {
+  position: relative;
+  background-image: url("../assets/sea1.jpg");
+}
+#left-bottom {
+  background-image: url("../assets/sea2.jpg");
+  position: relative;
+}
+#right-side::after {
+  content: "";
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #66A5AD;
+}
+#left-bottom::after {
+  content: "";
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #C4DFE6;
+}
